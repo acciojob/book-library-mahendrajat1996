@@ -28,7 +28,7 @@ body{
 	padding:10px;
 }
 .book-library .book .book-price{
-	background-colorrgb(46,204,113);
+	background-color:rgb(46,204,113);
 	text-align:center;
 	padding:10px;
 	color:#fff;
