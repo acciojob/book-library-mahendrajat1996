@@ -1,38 +1,46 @@
 /*  your css code here. If applicable */
-*{
-	margin:0;
-	padding:0;
+ 
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
 }
-body{
-	background-color:#f8f8f8;
-	display:flex;
-	justify-content:center;
+.book-library {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
-.book-library{
-	margin:20px 0;
-	background-color:#ffffff;
-	width:400px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.book-library h1 {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #e6e6e6;
 }
-.book-library h1{
-	text-align:center;
-	padding:10px;
-	background-color:#f8f8f8;	
+.book-library .book {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #e6e6e6;
 }
-.book-library .book img{
-@@ -24,7 +25,6 @@ body{
-.book-library .book{
-	margin-top:10px;
-	background-color:#f8f8f8;
-/* 	width:400px; */
-	padding:10px;
+.book-library .book h2 {
+    margin: 0;
+    font-size: 18px;
 }
-.book-library .book .book-price{
-	background-color: #2ecc71;
-	text-align:center;
-	padding:10px;
-	color:#fff;
+.book-library .book p {
+    margin: 0;
+    font-size: 14px;
+    color: #777777;
 }
-.book p{
-	color:#777777;
+.book-library .book .price {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
 }
